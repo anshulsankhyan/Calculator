@@ -49,7 +49,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;FeaturesTrainerSettingsPanel&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.Calculator-1.0-SNAPSHOT-jar-with-dependencies.jar">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="calculator.Calculator" />
       <module name="Calculator" />
