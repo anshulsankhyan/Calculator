@@ -7,9 +7,11 @@
       service:
         name: docker
         state: started
-        
     - name: pull docker image
       shell: docker pull docker.io/anshulsankhyan98/spe_mini_project
-      
+    - name: Get container info
+      docker_container_info:
+          name: calculator
+      register: result
     - name: running container
       shell: docker run -it --name calculator -d anshulsankhyan98/spe_mini_project
