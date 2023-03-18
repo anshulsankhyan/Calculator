@@ -12,4 +12,4 @@
       shell: docker pull docker.io/anshulsankhyan98/spe_mini_project
       
     - name: running container
-      shell: docker run -it -d anshulsankhyan98/spe_mini_project
+      shell: docker run -it --name calculator -d anshulsankhyan98/spe_mini_project
