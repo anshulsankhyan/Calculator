@@ -14,4 +14,4 @@
           name: calculator
       register: result
     - name: running container
-      shell: docker run -it --name calculator -d anshulsankhyan98/spe_mini_project
+      shell: docker run -it -d anshulsankhyan98/spe_mini_project
