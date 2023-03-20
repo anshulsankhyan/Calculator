@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Git pull') {
             steps {
-                git 'https://github.com/anshulsankhyan/Calculator.git'
+                git branch:'main', url : 'https://github.com/anshulsankhyan/Calculator.git'
             }
         }
         stage('Maven Build') {
